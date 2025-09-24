@@ -1,0 +1,16 @@
+fun main () {
+    val num1=10
+    val num2= 20
+
+    var resultado: Int? = null
+    var operador:String? =null
+
+    operador = "suma"
+    resultado = division(num1, num2)
+    println("el resulatdo es $resultado")
+    
+    
+}
+fun suma(num1: Int, num2: Int): Int {
+    return num1 - num2
+}
