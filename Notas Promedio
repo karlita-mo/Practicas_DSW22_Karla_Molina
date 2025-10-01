@@ -1,0 +1,33 @@
+
+
+fun main() {
+    
+    val notas = DoubleArray(5)
+
+    
+    notas[0] = 8.4
+    notas[1] = 7.5
+    notas[2] = 8.7
+    notas[3] = 7.0
+    notas[4] = 10.0
+    
+    println("Notas de los estudiantes:")
+    for (i in notas.indices) {
+        println("Estudiante ${i + 1}: ${notas[i]}")
+    }
+       
+   
+
+    var suma = 0.0
+    for (nota in notas) {
+        suma += nota
+    }
+
+    println("La suma total de las notas es: $suma")
+
+val promedio = suma/notas.size
+
+
+println("promedio de las notas: $promedio")
+
+}
